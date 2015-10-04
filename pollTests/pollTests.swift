@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Foundation
 import XCTest
 
 class pollTests: XCTestCase {
@@ -24,6 +25,11 @@ class pollTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
+        XCTAssertNil(nil, "Ok pass")
+    }
+    
+    func testUIExample() {
+        // This is an example of a functional test case.
     }
     
     func testPerformanceExample() {
